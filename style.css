@@ -39,6 +39,24 @@ body {
     margin: 85px auto;
     width: 10%;
   }
+  .resume-item {
+		padding: 30px;
+	} 
+  
+  	.resume-item h3 {
+    	color: #bac964;
+    	font-size: 20px; 
+    }
+  
+  	.resume-item .school {
+    	color: rgba(255, 255, 255, 0.3); 
+    }
+
+    .bor1,.bor2,.bor3{
+    	border: solid black 1px;
+    	padding: 15px;
+    	border-radius: 10px;
+    }
 
   .fontsize{
     font-family: 'Newsreader', serif !important;
