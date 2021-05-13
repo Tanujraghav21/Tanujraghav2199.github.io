@@ -33,12 +33,6 @@ body {
     line-height: 2;
   }
   
-  hr {
-    border: dotted #EAF6F6 8px;
-    border-bottom: none;
-    margin: 85px auto;
-    width: 10%;
-  }
   .resume-item {
 		padding: 30px;
 	} 
@@ -54,8 +48,41 @@ body {
 
     .bor1,.bor2,.bor3{
     	border: solid black 1px;
-    	padding: 15px;
+      width: 300px;
+      height:350px;
+      background:grey;
+    	padding: 5px;
     	border-radius: 10px;
+      transition-timing-function: ease;
+      transition: width 2s;
+      
+    }
+    .bor1:hover{
+      width:500px;
+      height: auto;
+    }
+    .bor2:hover{
+      width:500px;
+      height: auto;
+    }
+    .bor3:hover{
+      width:500px;
+      height: auto;
+    }
+    .navbar{
+      width: 100%;
+      background-color:bisque;
+      overflow: auto;
+
+    }
+    .navbar a{
+      float: left;
+      padding: 12px;
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+      width: 25%; 
+      text-align: center;
     }
 
   .fontsize{
@@ -160,13 +187,14 @@ body {
     padding: 3px;
     background-color: #66BFBF;
     /* color:#eaf6f6; */
-    border:#bb2b2b
+    border:#bb2b2b;
+    position:none;
   }
   .footer-link {
     color: hsl(0, 0%, 0%);
     font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
-    text-decoration:none;
+    margin: 20px 40px;
+   
   }
   
   .footer-link:hover {
